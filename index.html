@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <title>Happy BirthDay Bacche</title>
   <link rel="stylesheet" href="./style.css">
+   <script>
+        window.onload = function() {
+            var iframe = document.querySelector('iframe');
+            var iframeSrc = iframe.src;
+            iframe.src = iframeSrc + "?autoplay=1";
+        }
+    </script>
 
 </head>
 <body>
@@ -11,11 +18,11 @@
 <div class="Container">
   <!-- last card -->
   <div class="Picture-video" id="video">
-    <video width="300" height="480" controls autoplay>
+<!--     <video width="300" height="480" controls autoplay>
   <source src="video/videoplayback1.mp4" type="video/mp4">
   
-</video>
-<!--     <iframe class="Picture-img-video" width="300" height="480"  src="video/videoplayback1.mp4" frameborder="0" allowfullscreen></iframe> -->
+</video> -->
+    <iframe class="Picture-img-video" width="300" height="480"  src="video/videoplayback1.mp4" frameborder="0" allowfullscreen></iframe>
     <div class="Picture-note-video"><span>Happy Birthday Baccha ❤️ <a class="Network-video" href="https://codepen.io/DeyJordan" target="_top"><</a><a class="Network" href="https://twitter.com/DeyJordan" target="_top"></a></span></div>
   </div>
   <!-- other cards
